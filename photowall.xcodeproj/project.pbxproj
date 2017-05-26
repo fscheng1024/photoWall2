@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB3C18B67EF1D9DD7CF3D56 /* Pods_photowall_photowallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA034361C82E6E05BAEC5BD9 /* Pods_photowall_photowallTests.framework */; };
+		3FC123CA1ECECD72004A71FF /* Mapping1-2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FC123C91ECECD72004A71FF /* Mapping1-2.xcmappingmodel */; };
+		3FC123DA1ECEE23C004A71FF /* RestRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC123D91ECEE23C004A71FF /* RestRequestTests.m */; };
+		3FC123DC1ECEE517004A71FF /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC123DB1ECEE517004A71FF /* RestClient.m */; };
+		7107CEFF58936DE2132AA1B0 /* Pods_photowall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8DBADD6BBA285E1E45FC88 /* Pods_photowall.framework */; };
+		DB30B5431ED2BEF1000AF505 /* AccountManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30B5421ED2BEF1000AF505 /* AccountManagerTests.m */; };
+		DB30B5471ED2BF14000AF505 /* NSStringUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30B5461ED2BF14000AF505 /* NSStringUtilsTests.m */; };
+		DB60A5CA1ECC44300089475E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60A5C91ECC44300089475E /* main.m */; };
+		DB60A5D01ECC44310089475E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60A5CF1ECC44310089475E /* ViewController.m */; };
+		DB60A5D31ECC44310089475E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60A5D11ECC44310089475E /* Main.storyboard */; };
+		DB60A5D61ECC44310089475E /* photowall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB60A5D41ECC44310089475E /* photowall.xcdatamodeld */; };
+		DB60A5DB1ECC44310089475E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB60A5D91ECC44310089475E /* LaunchScreen.storyboard */; };
+		DB60A5E61ECC44310089475E /* photowallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB60A5E51ECC44310089475E /* photowallTests.m */; };
+		DB71CE081ED2770A0015EE5D /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE051ED2770A0015EE5D /* _User.m */; };
+		DB71CE751ED277E50015EE5D /* AnnotationCallOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE4F1ED277E40015EE5D /* AnnotationCallOutView.m */; };
+		DB71CE761ED277E50015EE5D /* AnnotationCallOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE501ED277E40015EE5D /* AnnotationCallOutView.xib */; };
+		DB71CE771ED277E50015EE5D /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE521ED277E40015EE5D /* FriendCell.m */; };
+		DB71CE781ED277E50015EE5D /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE531ED277E40015EE5D /* FriendCell.xib */; };
+		DB71CE791ED277E50015EE5D /* FriendsListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE541ED277E40015EE5D /* FriendsListView.xib */; };
+		DB71CE7A1ED277E50015EE5D /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE561ED277E50015EE5D /* FriendsViewController.m */; };
+		DB71CE7B1ED277E50015EE5D /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE571ED277E50015EE5D /* LoginView.xib */; };
+		DB71CE7C1ED277E50015EE5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE591ED277E50015EE5D /* LoginViewController.m */; };
+		DB71CE7D1ED277E50015EE5D /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE5A1ED277E50015EE5D /* MaskView.xib */; };
+		DB71CE7E1ED277E50015EE5D /* PhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE5C1ED277E50015EE5D /* PhotoAnnotation.m */; };
+		DB71CE7F1ED277E50015EE5D /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE5E1ED277E50015EE5D /* PhotoCell.m */; };
+		DB71CE801ED277E50015EE5D /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE5F1ED277E50015EE5D /* PhotoCell.xib */; };
+		DB71CE811ED277E50015EE5D /* PhotoGridSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE611ED277E50015EE5D /* PhotoGridSectionHeader.m */; };
+		DB71CE821ED277E50015EE5D /* PhotoGridSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE621ED277E50015EE5D /* PhotoGridSectionHeader.xib */; };
+		DB71CE831ED277E50015EE5D /* PhotoGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE631ED277E50015EE5D /* PhotoGridView.xib */; };
+		DB71CE841ED277E50015EE5D /* PhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE651ED277E50015EE5D /* PhotoGridViewController.m */; };
+		DB71CE851ED277E50015EE5D /* PhotoMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE661ED277E50015EE5D /* PhotoMapView.xib */; };
+		DB71CE861ED277E50015EE5D /* PhotoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE681ED277E50015EE5D /* PhotoMapViewController.m */; };
+		DB71CE871ED277E50015EE5D /* PhotoShowcaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE6A1ED277E50015EE5D /* PhotoShowcaseCell.m */; };
+		DB71CE881ED277E50015EE5D /* PhotoShowcaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE6B1ED277E50015EE5D /* PhotoShowcaseCell.xib */; };
+		DB71CE891ED277E50015EE5D /* PhotoShowcaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE6C1ED277E50015EE5D /* PhotoShowcaseView.xib */; };
+		DB71CE8A1ED277E50015EE5D /* PhotoShowcaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE6E1ED277E50015EE5D /* PhotoShowcaseViewController.m */; };
+		DB71CE8B1ED277E50015EE5D /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE6F1ED277E50015EE5D /* ProfileView.xib */; };
+		DB71CE8C1ED277E50015EE5D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE711ED277E50015EE5D /* ProfileViewController.m */; };
+		DB71CE8D1ED277E50015EE5D /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB71CE721ED277E50015EE5D /* RootView.xib */; };
+		DB71CE8E1ED277E50015EE5D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE741ED277E50015EE5D /* RootViewController.m */; };
+		DB71CE9D1ED278010015EE5D /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE901ED278010015EE5D /* AccountManager.m */; };
+		DB71CE9E1ED278010015EE5D /* LocationAwarePhotoUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE921ED278010015EE5D /* LocationAwarePhotoUploadTask.m */; };
+		DB71CE9F1ED278010015EE5D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE941ED278010015EE5D /* Photo.m */; };
+		DB71CEA01ED278010015EE5D /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE961ED278010015EE5D /* PhotoManager.m */; };
+		DB71CEA11ED278010015EE5D /* PhotoMapRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE981ED278010015EE5D /* PhotoMapRegion.m */; };
+		DB71CEA21ED278010015EE5D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE9A1ED278010015EE5D /* User.m */; };
+		DB71CEA31ED278010015EE5D /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CE9C1ED278010015EE5D /* UserManager.m */; };
+		DB71CEA51ED278310015EE5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB71CEA41ED278310015EE5D /* Images.xcassets */; };
+		DB71CEAC1ED278970015EE5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEAB1ED278970015EE5D /* AppDelegate.m */; };
+		DB71CEBE1ED2798B0015EE5D /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEB11ED2798B0015EE5D /* NSDate+Utils.m */; };
+		DB71CEBF1ED2798B0015EE5D /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEB31ED2798B0015EE5D /* NSString+Utils.m */; };
+		DB71CEC01ED2798B0015EE5D /* PhotoMapRegion+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEB51ED2798B0015EE5D /* PhotoMapRegion+Utils.m */; };
+		DB71CEC11ED2798B0015EE5D /* UIColor+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEB71ED2798B0015EE5D /* UIColor+Defaults.m */; };
+		DB71CEC21ED2798B0015EE5D /* UIImageView+WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEB91ED2798B0015EE5D /* UIImageView+WebImage.m */; };
+		DB71CEC31ED2798B0015EE5D /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEBB1ED2798B0015EE5D /* UIView+Utils.m */; };
+		DB71CEC41ED2798B0015EE5D /* UIViewController+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEBD1ED2798B0015EE5D /* UIViewController+Mask.m */; };
+		DB71CEC71ED279B00015EE5D /* KeyChainSecuredAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEC61ED279B00015EE5D /* KeyChainSecuredAuthenticator.m */; };
+		DB71CECE1ED27A2F0015EE5D /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CEC91ED27A2F0015EE5D /* RestClient.m */; };
+		DB71CECF1ED27A2F0015EE5D /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CECB1ED27A2F0015EE5D /* RestRequest.m */; };
+		DB71CED01ED27A2F0015EE5D /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DB71CECD1ED27A2F0015EE5D /* RestResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB60A5E21ECC44310089475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB60A5BD1ECC442F0089475E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB60A5C41ECC442F0089475E;
+			remoteInfo = photowall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1076186009BBB2B7D3FFF1CA /* Pods-photowall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photowall/Pods-photowall.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8DBADD6BBA285E1E45FC88 /* Pods_photowall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photowall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC123C81ECECCDF004A71FF /* photowall 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "photowall 2.xcdatamodel"; sourceTree = "<group>"; };
+		3FC123C91ECECD72004A71FF /* Mapping1-2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Mapping1-2.xcmappingmodel"; sourceTree = "<group>"; };
+		3FC123D91ECEE23C004A71FF /* RestRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTests.m; path = photowallTests/RestClient/RestRequestTests.m; sourceTree = SOURCE_ROOT; };
+		3FC123DB1ECEE517004A71FF /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = RestClient/RestClient.m; sourceTree = "<group>"; };
+		A106622470A2A737446D2EE4 /* Pods-photowall-photowallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall-photowallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A83D7D994D991964B7B96B07 /* Pods-photowall-photowallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall-photowallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA034361C82E6E05BAEC5BD9 /* Pods_photowall_photowallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photowall_photowallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C336E6ED9AE75FBEE922F95B /* Pods-photowall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photowall.release.xcconfig"; path = "Pods/Target Support Files/Pods-photowall/Pods-photowall.release.xcconfig"; sourceTree = "<group>"; };
+		DB30B5421ED2BEF1000AF505 /* AccountManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountManagerTests.m; path = "../../photowall-ios-master/photowallTests/Model/AccountManagerTests.m"; sourceTree = "<group>"; };
+		DB30B5461ED2BF14000AF505 /* NSStringUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringUtilsTests.m; path = "../../photowall-ios-master/photowallTests/Utils/NSStringUtilsTests.m"; sourceTree = "<group>"; };
+		DB60A5C51ECC44300089475E /* photowall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photowall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60A5C91ECC44300089475E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB60A5CE1ECC44310089475E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB60A5CF1ECC44310089475E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB60A5D21ECC44310089475E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB60A5D51ECC44310089475E /* photowall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = photowall.xcdatamodel; sourceTree = "<group>"; };
+		DB60A5DA1ECC44310089475E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB60A5DC1ECC44310089475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB60A5E11ECC44310089475E /* photowallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photowallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60A5E51ECC44310089475E /* photowallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photowallTests.m; sourceTree = "<group>"; };
+		DB60A5E71ECC44310089475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB71CE041ED2770A0015EE5D /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _User.h; path = ../../Downloads/photowall/photowall/CoreData/_User.h; sourceTree = "<group>"; };
+		DB71CE051ED2770A0015EE5D /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _User.m; path = ../../Downloads/photowall/photowall/CoreData/_User.m; sourceTree = "<group>"; };
+		DB71CE4E1ED277E40015EE5D /* AnnotationCallOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotationCallOutView.h; path = "../../photowall-ios-master/photowall/View/AnnotationCallOutView.h"; sourceTree = "<group>"; };
+		DB71CE4F1ED277E40015EE5D /* AnnotationCallOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotationCallOutView.m; path = "../../photowall-ios-master/photowall/View/AnnotationCallOutView.m"; sourceTree = "<group>"; };
+		DB71CE501ED277E40015EE5D /* AnnotationCallOutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AnnotationCallOutView.xib; path = "../../photowall-ios-master/photowall/View/AnnotationCallOutView.xib"; sourceTree = "<group>"; };
+		DB71CE511ED277E40015EE5D /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendCell.h; path = "../../photowall-ios-master/photowall/View/FriendCell.h"; sourceTree = "<group>"; };
+		DB71CE521ED277E40015EE5D /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendCell.m; path = "../../photowall-ios-master/photowall/View/FriendCell.m"; sourceTree = "<group>"; };
+		DB71CE531ED277E40015EE5D /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendCell.xib; path = "../../photowall-ios-master/photowall/View/FriendCell.xib"; sourceTree = "<group>"; };
+		DB71CE541ED277E40015EE5D /* FriendsListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendsListView.xib; path = "../../photowall-ios-master/photowall/View/FriendsListView.xib"; sourceTree = "<group>"; };
+		DB71CE551ED277E40015EE5D /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = "../../photowall-ios-master/photowall/View/FriendsViewController.h"; sourceTree = "<group>"; };
+		DB71CE561ED277E50015EE5D /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = "../../photowall-ios-master/photowall/View/FriendsViewController.m"; sourceTree = "<group>"; };
+		DB71CE571ED277E50015EE5D /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = "../../photowall-ios-master/photowall/View/LoginView.xib"; sourceTree = "<group>"; };
+		DB71CE581ED277E50015EE5D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "../../photowall-ios-master/photowall/View/LoginViewController.h"; sourceTree = "<group>"; };
+		DB71CE591ED277E50015EE5D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "../../photowall-ios-master/photowall/View/LoginViewController.m"; sourceTree = "<group>"; };
+		DB71CE5A1ED277E50015EE5D /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaskView.xib; path = "../../photowall-ios-master/photowall/View/MaskView.xib"; sourceTree = "<group>"; };
+		DB71CE5B1ED277E50015EE5D /* PhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoAnnotation.h; path = "../../photowall-ios-master/photowall/View/PhotoAnnotation.h"; sourceTree = "<group>"; };
+		DB71CE5C1ED277E50015EE5D /* PhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoAnnotation.m; path = "../../photowall-ios-master/photowall/View/PhotoAnnotation.m"; sourceTree = "<group>"; };
+		DB71CE5D1ED277E50015EE5D /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCell.h; path = "../../photowall-ios-master/photowall/View/PhotoCell.h"; sourceTree = "<group>"; };
+		DB71CE5E1ED277E50015EE5D /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCell.m; path = "../../photowall-ios-master/photowall/View/PhotoCell.m"; sourceTree = "<group>"; };
+		DB71CE5F1ED277E50015EE5D /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoCell.xib; path = "../../photowall-ios-master/photowall/View/PhotoCell.xib"; sourceTree = "<group>"; };
+		DB71CE601ED277E50015EE5D /* PhotoGridSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridSectionHeader.h; path = "../../photowall-ios-master/photowall/View/PhotoGridSectionHeader.h"; sourceTree = "<group>"; };
+		DB71CE611ED277E50015EE5D /* PhotoGridSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridSectionHeader.m; path = "../../photowall-ios-master/photowall/View/PhotoGridSectionHeader.m"; sourceTree = "<group>"; };
+		DB71CE621ED277E50015EE5D /* PhotoGridSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoGridSectionHeader.xib; path = "../../photowall-ios-master/photowall/View/PhotoGridSectionHeader.xib"; sourceTree = "<group>"; };
+		DB71CE631ED277E50015EE5D /* PhotoGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoGridView.xib; path = "../../photowall-ios-master/photowall/View/PhotoGridView.xib"; sourceTree = "<group>"; };
+		DB71CE641ED277E50015EE5D /* PhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoGridViewController.h; path = "../../photowall-ios-master/photowall/View/PhotoGridViewController.h"; sourceTree = "<group>"; };
+		DB71CE651ED277E50015EE5D /* PhotoGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoGridViewController.m; path = "../../photowall-ios-master/photowall/View/PhotoGridViewController.m"; sourceTree = "<group>"; };
+		DB71CE661ED277E50015EE5D /* PhotoMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoMapView.xib; path = "../../photowall-ios-master/photowall/View/PhotoMapView.xib"; sourceTree = "<group>"; };
+		DB71CE671ED277E50015EE5D /* PhotoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoMapViewController.h; path = "../../photowall-ios-master/photowall/View/PhotoMapViewController.h"; sourceTree = "<group>"; };
+		DB71CE681ED277E50015EE5D /* PhotoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoMapViewController.m; path = "../../photowall-ios-master/photowall/View/PhotoMapViewController.m"; sourceTree = "<group>"; };
+		DB71CE691ED277E50015EE5D /* PhotoShowcaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoShowcaseCell.h; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseCell.h"; sourceTree = "<group>"; };
+		DB71CE6A1ED277E50015EE5D /* PhotoShowcaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoShowcaseCell.m; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseCell.m"; sourceTree = "<group>"; };
+		DB71CE6B1ED277E50015EE5D /* PhotoShowcaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoShowcaseCell.xib; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseCell.xib"; sourceTree = "<group>"; };
+		DB71CE6C1ED277E50015EE5D /* PhotoShowcaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhotoShowcaseView.xib; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseView.xib"; sourceTree = "<group>"; };
+		DB71CE6D1ED277E50015EE5D /* PhotoShowcaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoShowcaseViewController.h; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseViewController.h"; sourceTree = "<group>"; };
+		DB71CE6E1ED277E50015EE5D /* PhotoShowcaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoShowcaseViewController.m; path = "../../photowall-ios-master/photowall/View/PhotoShowcaseViewController.m"; sourceTree = "<group>"; };
+		DB71CE6F1ED277E50015EE5D /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileView.xib; path = "../../photowall-ios-master/photowall/View/ProfileView.xib"; sourceTree = "<group>"; };
+		DB71CE701ED277E50015EE5D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = "../../photowall-ios-master/photowall/View/ProfileViewController.h"; sourceTree = "<group>"; };
+		DB71CE711ED277E50015EE5D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = "../../photowall-ios-master/photowall/View/ProfileViewController.m"; sourceTree = "<group>"; };
+		DB71CE721ED277E50015EE5D /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootView.xib; path = "../../photowall-ios-master/photowall/View/RootView.xib"; sourceTree = "<group>"; };
+		DB71CE731ED277E50015EE5D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "../../photowall-ios-master/photowall/View/RootViewController.h"; sourceTree = "<group>"; };
+		DB71CE741ED277E50015EE5D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = "../../photowall-ios-master/photowall/View/RootViewController.m"; sourceTree = "<group>"; };
+		DB71CE8F1ED278010015EE5D /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountManager.h; path = "../photowall-ios-master/photowall/Model/AccountManager.h"; sourceTree = "<group>"; };
+		DB71CE901ED278010015EE5D /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountManager.m; path = "../photowall-ios-master/photowall/Model/AccountManager.m"; sourceTree = "<group>"; };
+		DB71CE911ED278010015EE5D /* LocationAwarePhotoUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationAwarePhotoUploadTask.h; path = "../photowall-ios-master/photowall/Model/LocationAwarePhotoUploadTask.h"; sourceTree = "<group>"; };
+		DB71CE921ED278010015EE5D /* LocationAwarePhotoUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationAwarePhotoUploadTask.m; path = "../photowall-ios-master/photowall/Model/LocationAwarePhotoUploadTask.m"; sourceTree = "<group>"; };
+		DB71CE931ED278010015EE5D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = "../photowall-ios-master/photowall/Model/Photo.h"; sourceTree = "<group>"; };
+		DB71CE941ED278010015EE5D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = "../photowall-ios-master/photowall/Model/Photo.m"; sourceTree = "<group>"; };
+		DB71CE951ED278010015EE5D /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoManager.h; path = "../photowall-ios-master/photowall/Model/PhotoManager.h"; sourceTree = "<group>"; };
+		DB71CE961ED278010015EE5D /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoManager.m; path = "../photowall-ios-master/photowall/Model/PhotoManager.m"; sourceTree = "<group>"; };
+		DB71CE971ED278010015EE5D /* PhotoMapRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoMapRegion.h; path = "../photowall-ios-master/photowall/Model/PhotoMapRegion.h"; sourceTree = "<group>"; };
+		DB71CE981ED278010015EE5D /* PhotoMapRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoMapRegion.m; path = "../photowall-ios-master/photowall/Model/PhotoMapRegion.m"; sourceTree = "<group>"; };
+		DB71CE991ED278010015EE5D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "../photowall-ios-master/photowall/Model/User.h"; sourceTree = "<group>"; };
+		DB71CE9A1ED278010015EE5D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "../photowall-ios-master/photowall/Model/User.m"; sourceTree = "<group>"; };
+		DB71CE9B1ED278010015EE5D /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = "../photowall-ios-master/photowall/Model/UserManager.h"; sourceTree = "<group>"; };
+		DB71CE9C1ED278010015EE5D /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = "../photowall-ios-master/photowall/Model/UserManager.m"; sourceTree = "<group>"; };
+		DB71CEA41ED278310015EE5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../photowall-ios-master/photowall/Images.xcassets"; sourceTree = "<group>"; };
+		DB71CEAA1ED278970015EE5D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../photowall-ios-master/photowall/AppDelegate.h"; sourceTree = "<group>"; };
+		DB71CEAB1ED278970015EE5D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../photowall-ios-master/photowall/AppDelegate.m"; sourceTree = "<group>"; };
+		DB71CEB01ED2798B0015EE5D /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utils.h"; path = "../../photowall-ios-master/photowall/Utils/NSDate+Utils.h"; sourceTree = "<group>"; };
+		DB71CEB11ED2798B0015EE5D /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utils.m"; path = "../../photowall-ios-master/photowall/Utils/NSDate+Utils.m"; sourceTree = "<group>"; };
+		DB71CEB21ED2798B0015EE5D /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "../../photowall-ios-master/photowall/Utils/NSString+Utils.h"; sourceTree = "<group>"; };
+		DB71CEB31ED2798B0015EE5D /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "../../photowall-ios-master/photowall/Utils/NSString+Utils.m"; sourceTree = "<group>"; };
+		DB71CEB41ED2798B0015EE5D /* PhotoMapRegion+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PhotoMapRegion+Utils.h"; path = "../../photowall-ios-master/photowall/Utils/PhotoMapRegion+Utils.h"; sourceTree = "<group>"; };
+		DB71CEB51ED2798B0015EE5D /* PhotoMapRegion+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PhotoMapRegion+Utils.m"; path = "../../photowall-ios-master/photowall/Utils/PhotoMapRegion+Utils.m"; sourceTree = "<group>"; };
+		DB71CEB61ED2798B0015EE5D /* UIColor+Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Defaults.h"; path = "../../photowall-ios-master/photowall/Utils/UIColor+Defaults.h"; sourceTree = "<group>"; };
+		DB71CEB71ED2798B0015EE5D /* UIColor+Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Defaults.m"; path = "../../photowall-ios-master/photowall/Utils/UIColor+Defaults.m"; sourceTree = "<group>"; };
+		DB71CEB81ED2798B0015EE5D /* UIImageView+WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebImage.h"; path = "../../photowall-ios-master/photowall/Utils/UIImageView+WebImage.h"; sourceTree = "<group>"; };
+		DB71CEB91ED2798B0015EE5D /* UIImageView+WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebImage.m"; path = "../../photowall-ios-master/photowall/Utils/UIImageView+WebImage.m"; sourceTree = "<group>"; };
+		DB71CEBA1ED2798B0015EE5D /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "../../photowall-ios-master/photowall/Utils/UIView+Utils.h"; sourceTree = "<group>"; };
+		DB71CEBB1ED2798B0015EE5D /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "../../photowall-ios-master/photowall/Utils/UIView+Utils.m"; sourceTree = "<group>"; };
+		DB71CEBC1ED2798B0015EE5D /* UIViewController+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Mask.h"; path = "../../photowall-ios-master/photowall/Utils/UIViewController+Mask.h"; sourceTree = "<group>"; };
+		DB71CEBD1ED2798B0015EE5D /* UIViewController+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Mask.m"; path = "../../photowall-ios-master/photowall/Utils/UIViewController+Mask.m"; sourceTree = "<group>"; };
+		DB71CEC51ED279B00015EE5D /* KeyChainSecuredAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainSecuredAuthenticator.h; path = "../photowall-ios-master/photowall/RestClient/KeyChainSecuredAuthenticator.h"; sourceTree = "<group>"; };
+		DB71CEC61ED279B00015EE5D /* KeyChainSecuredAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainSecuredAuthenticator.m; path = "../photowall-ios-master/photowall/RestClient/KeyChainSecuredAuthenticator.m"; sourceTree = "<group>"; };
+		DB71CEC81ED27A2F0015EE5D /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = "../photowall-ios-master/photowall/RestClient/RestClient.h"; sourceTree = "<group>"; };
+		DB71CEC91ED27A2F0015EE5D /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = "../photowall-ios-master/photowall/RestClient/RestClient.m"; sourceTree = "<group>"; };
+		DB71CECA1ED27A2F0015EE5D /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = "../photowall-ios-master/photowall/RestClient/RestRequest.h"; sourceTree = "<group>"; };
+		DB71CECB1ED27A2F0015EE5D /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = "../photowall-ios-master/photowall/RestClient/RestRequest.m"; sourceTree = "<group>"; };
+		DB71CECC1ED27A2F0015EE5D /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = "../photowall-ios-master/photowall/RestClient/RestResponse.h"; sourceTree = "<group>"; };
+		DB71CECD1ED27A2F0015EE5D /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = "../photowall-ios-master/photowall/RestClient/RestResponse.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB60A5C21ECC442F0089475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7107CEFF58936DE2132AA1B0 /* Pods_photowall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60A5DE1ECC44310089475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB3C18B67EF1D9DD7CF3D56 /* Pods_photowall_photowallTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4B7C62A6071634EE9D7D6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B8DBADD6BBA285E1E45FC88 /* Pods_photowall.framework */,
+				AA034361C82E6E05BAEC5BD9 /* Pods_photowall_photowallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC123CB1ECED1EA004A71FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CE8F1ED278010015EE5D /* AccountManager.h */,
+				DB71CE901ED278010015EE5D /* AccountManager.m */,
+				DB71CE911ED278010015EE5D /* LocationAwarePhotoUploadTask.h */,
+				DB71CE921ED278010015EE5D /* LocationAwarePhotoUploadTask.m */,
+				DB71CE931ED278010015EE5D /* Photo.h */,
+				DB71CE941ED278010015EE5D /* Photo.m */,
+				DB71CE951ED278010015EE5D /* PhotoManager.h */,
+				DB71CE961ED278010015EE5D /* PhotoManager.m */,
+				DB71CE971ED278010015EE5D /* PhotoMapRegion.h */,
+				DB71CE981ED278010015EE5D /* PhotoMapRegion.m */,
+				DB71CE991ED278010015EE5D /* User.h */,
+				DB71CE9A1ED278010015EE5D /* User.m */,
+				DB71CE9B1ED278010015EE5D /* UserManager.h */,
+				DB71CE9C1ED278010015EE5D /* UserManager.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FC123CD1ECED1F6004A71FF /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CEC81ED27A2F0015EE5D /* RestClient.h */,
+				DB71CEC91ED27A2F0015EE5D /* RestClient.m */,
+				DB71CECA1ED27A2F0015EE5D /* RestRequest.h */,
+				DB71CECB1ED27A2F0015EE5D /* RestRequest.m */,
+				DB71CECC1ED27A2F0015EE5D /* RestResponse.h */,
+				DB71CECD1ED27A2F0015EE5D /* RestResponse.m */,
+				DB71CEC51ED279B00015EE5D /* KeyChainSecuredAuthenticator.h */,
+				DB71CEC61ED279B00015EE5D /* KeyChainSecuredAuthenticator.m */,
+			);
+			name = RestClient;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FC123D71ECEE18F004A71FF /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				3FC123D91ECEE23C004A71FF /* RestRequestTests.m */,
+				3FC123DB1ECEE517004A71FF /* RestClient.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		D14E2E6D2C4279354CE22843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1076186009BBB2B7D3FFF1CA /* Pods-photowall.debug.xcconfig */,
+				C336E6ED9AE75FBEE922F95B /* Pods-photowall.release.xcconfig */,
+				A106622470A2A737446D2EE4 /* Pods-photowall-photowallTests.debug.xcconfig */,
+				A83D7D994D991964B7B96B07 /* Pods-photowall-photowallTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB30B5441ED2BF04000AF505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB30B5421ED2BEF1000AF505 /* AccountManagerTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DB30B5451ED2BF0C000AF505 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB30B5461ED2BF14000AF505 /* NSStringUtilsTests.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DB60A5BC1ECC442F0089475E = {
+			isa = PBXGroup;
+			children = (
+				DB71CE031ED276CB0015EE5D /* CoreData */,
+				3FC123C91ECECD72004A71FF /* Mapping1-2.xcmappingmodel */,
+				DB60A5C71ECC44300089475E /* photowall */,
+				DB60A5E41ECC44310089475E /* photowallTests */,
+				DB60A5C61ECC44300089475E /* Products */,
+				D14E2E6D2C4279354CE22843 /* Pods */,
+				2A4B7C62A6071634EE9D7D6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB60A5C61ECC44300089475E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB60A5C51ECC44300089475E /* photowall.app */,
+				DB60A5E11ECC44310089475E /* photowallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB60A5C71ECC44300089475E /* photowall */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CEAF1ED279570015EE5D /* Utils */,
+				DB71CE4D1ED277D10015EE5D /* View */,
+				3FC123CD1ECED1F6004A71FF /* RestClient */,
+				3FC123CB1ECED1EA004A71FF /* Model */,
+				DB60A5CE1ECC44310089475E /* ViewController.h */,
+				DB60A5CF1ECC44310089475E /* ViewController.m */,
+				DB71CEAA1ED278970015EE5D /* AppDelegate.h */,
+				DB71CEAB1ED278970015EE5D /* AppDelegate.m */,
+				DB60A5D11ECC44310089475E /* Main.storyboard */,
+				DB71CEA41ED278310015EE5D /* Images.xcassets */,
+				DB60A5D91ECC44310089475E /* LaunchScreen.storyboard */,
+				DB60A5DC1ECC44310089475E /* Info.plist */,
+				DB60A5D41ECC44310089475E /* photowall.xcdatamodeld */,
+				DB60A5C81ECC44300089475E /* Supporting Files */,
+			);
+			path = photowall;
+			sourceTree = "<group>";
+		};
+		DB60A5C81ECC44300089475E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB60A5C91ECC44300089475E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB60A5E41ECC44310089475E /* photowallTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB30B5451ED2BF0C000AF505 /* Utils */,
+				DB30B5441ED2BF04000AF505 /* Model */,
+				3FC123D71ECEE18F004A71FF /* RestClient */,
+				DB60A5E51ECC44310089475E /* photowallTests.m */,
+				DB60A5E71ECC44310089475E /* Info.plist */,
+			);
+			path = photowallTests;
+			sourceTree = "<group>";
+		};
+		DB71CE031ED276CB0015EE5D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CE041ED2770A0015EE5D /* _User.h */,
+				DB71CE051ED2770A0015EE5D /* _User.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		DB71CE4D1ED277D10015EE5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CE4E1ED277E40015EE5D /* AnnotationCallOutView.h */,
+				DB71CE4F1ED277E40015EE5D /* AnnotationCallOutView.m */,
+				DB71CE501ED277E40015EE5D /* AnnotationCallOutView.xib */,
+				DB71CE511ED277E40015EE5D /* FriendCell.h */,
+				DB71CE521ED277E40015EE5D /* FriendCell.m */,
+				DB71CE531ED277E40015EE5D /* FriendCell.xib */,
+				DB71CE541ED277E40015EE5D /* FriendsListView.xib */,
+				DB71CE551ED277E40015EE5D /* FriendsViewController.h */,
+				DB71CE561ED277E50015EE5D /* FriendsViewController.m */,
+				DB71CE571ED277E50015EE5D /* LoginView.xib */,
+				DB71CE581ED277E50015EE5D /* LoginViewController.h */,
+				DB71CE591ED277E50015EE5D /* LoginViewController.m */,
+				DB71CE5A1ED277E50015EE5D /* MaskView.xib */,
+				DB71CE5B1ED277E50015EE5D /* PhotoAnnotation.h */,
+				DB71CE5C1ED277E50015EE5D /* PhotoAnnotation.m */,
+				DB71CE5D1ED277E50015EE5D /* PhotoCell.h */,
+				DB71CE5E1ED277E50015EE5D /* PhotoCell.m */,
+				DB71CE5F1ED277E50015EE5D /* PhotoCell.xib */,
+				DB71CE601ED277E50015EE5D /* PhotoGridSectionHeader.h */,
+				DB71CE611ED277E50015EE5D /* PhotoGridSectionHeader.m */,
+				DB71CE621ED277E50015EE5D /* PhotoGridSectionHeader.xib */,
+				DB71CE631ED277E50015EE5D /* PhotoGridView.xib */,
+				DB71CE641ED277E50015EE5D /* PhotoGridViewController.h */,
+				DB71CE651ED277E50015EE5D /* PhotoGridViewController.m */,
+				DB71CE661ED277E50015EE5D /* PhotoMapView.xib */,
+				DB71CE671ED277E50015EE5D /* PhotoMapViewController.h */,
+				DB71CE681ED277E50015EE5D /* PhotoMapViewController.m */,
+				DB71CE691ED277E50015EE5D /* PhotoShowcaseCell.h */,
+				DB71CE6A1ED277E50015EE5D /* PhotoShowcaseCell.m */,
+				DB71CE6B1ED277E50015EE5D /* PhotoShowcaseCell.xib */,
+				DB71CE6C1ED277E50015EE5D /* PhotoShowcaseView.xib */,
+				DB71CE6D1ED277E50015EE5D /* PhotoShowcaseViewController.h */,
+				DB71CE6E1ED277E50015EE5D /* PhotoShowcaseViewController.m */,
+				DB71CE6F1ED277E50015EE5D /* ProfileView.xib */,
+				DB71CE701ED277E50015EE5D /* ProfileViewController.h */,
+				DB71CE711ED277E50015EE5D /* ProfileViewController.m */,
+				DB71CE721ED277E50015EE5D /* RootView.xib */,
+				DB71CE731ED277E50015EE5D /* RootViewController.h */,
+				DB71CE741ED277E50015EE5D /* RootViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DB71CEAF1ED279570015EE5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB71CEB01ED2798B0015EE5D /* NSDate+Utils.h */,
+				DB71CEB11ED2798B0015EE5D /* NSDate+Utils.m */,
+				DB71CEB21ED2798B0015EE5D /* NSString+Utils.h */,
+				DB71CEB31ED2798B0015EE5D /* NSString+Utils.m */,
+				DB71CEB41ED2798B0015EE5D /* PhotoMapRegion+Utils.h */,
+				DB71CEB51ED2798B0015EE5D /* PhotoMapRegion+Utils.m */,
+				DB71CEB61ED2798B0015EE5D /* UIColor+Defaults.h */,
+				DB71CEB71ED2798B0015EE5D /* UIColor+Defaults.m */,
+				DB71CEB81ED2798B0015EE5D /* UIImageView+WebImage.h */,
+				DB71CEB91ED2798B0015EE5D /* UIImageView+WebImage.m */,
+				DB71CEBA1ED2798B0015EE5D /* UIView+Utils.h */,
+				DB71CEBB1ED2798B0015EE5D /* UIView+Utils.m */,
+				DB71CEBC1ED2798B0015EE5D /* UIViewController+Mask.h */,
+				DB71CEBD1ED2798B0015EE5D /* UIViewController+Mask.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB60A5C41ECC442F0089475E /* photowall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB60A5EA1ECC44310089475E /* Build configuration list for PBXNativeTarget "photowall" */;
+			buildPhases = (
+				03D0D02910E75F28E1A2229C /* [CP] Check Pods Manifest.lock */,
+				DB60A5C11ECC442F0089475E /* Sources */,
+				DB60A5C21ECC442F0089475E /* Frameworks */,
+				DB60A5C31ECC442F0089475E /* Resources */,
+				45CB96C45C28554AE514E489 /* [CP] Embed Pods Frameworks */,
+				DB79F4D7FF18DBCE4E48ED8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photowall;
+			productName = photowall;
+			productReference = DB60A5C51ECC44300089475E /* photowall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB60A5E01ECC44310089475E /* photowallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB60A5ED1ECC44310089475E /* Build configuration list for PBXNativeTarget "photowallTests" */;
+			buildPhases = (
+				4957BB7B04A6FAC388B75A3A /* [CP] Check Pods Manifest.lock */,
+				DB60A5DD1ECC44310089475E /* Sources */,
+				DB60A5DE1ECC44310089475E /* Frameworks */,
+				DB60A5DF1ECC44310089475E /* Resources */,
+				E29B8DBC73554BA3BF4F5AC9 /* [CP] Embed Pods Frameworks */,
+				0ED4876137139BACA3AD4912 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB60A5E31ECC44310089475E /* PBXTargetDependency */,
+			);
+			name = photowallTests;
+			productName = photowallTests;
+			productReference = DB60A5E11ECC44310089475E /* photowallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB60A5BD1ECC442F0089475E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Roger;
+				TargetAttributes = {
+					DB60A5C41ECC442F0089475E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RK5L652G86;
+						ProvisioningStyle = Automatic;
+					};
+					DB60A5E01ECC44310089475E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RK5L652G86;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB60A5C41ECC442F0089475E;
+					};
+				};
+			};
+			buildConfigurationList = DB60A5C01ECC442F0089475E /* Build configuration list for PBXProject "photowall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB60A5BC1ECC442F0089475E;
+			productRefGroup = DB60A5C61ECC44300089475E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB60A5C41ECC442F0089475E /* photowall */,
+				DB60A5E01ECC44310089475E /* photowallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB60A5C31ECC442F0089475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB71CE781ED277E50015EE5D /* FriendCell.xib in Resources */,
+				DB71CE831ED277E50015EE5D /* PhotoGridView.xib in Resources */,
+				DB71CE761ED277E50015EE5D /* AnnotationCallOutView.xib in Resources */,
+				DB71CE791ED277E50015EE5D /* FriendsListView.xib in Resources */,
+				DB71CE851ED277E50015EE5D /* PhotoMapView.xib in Resources */,
+				DB71CE7B1ED277E50015EE5D /* LoginView.xib in Resources */,
+				DB71CE7D1ED277E50015EE5D /* MaskView.xib in Resources */,
+				DB71CE821ED277E50015EE5D /* PhotoGridSectionHeader.xib in Resources */,
+				DB71CE891ED277E50015EE5D /* PhotoShowcaseView.xib in Resources */,
+				DB71CE881ED277E50015EE5D /* PhotoShowcaseCell.xib in Resources */,
+				DB60A5DB1ECC44310089475E /* LaunchScreen.storyboard in Resources */,
+				DB71CEA51ED278310015EE5D /* Images.xcassets in Resources */,
+				DB71CE8B1ED277E50015EE5D /* ProfileView.xib in Resources */,
+				DB71CE8D1ED277E50015EE5D /* RootView.xib in Resources */,
+				DB71CE801ED277E50015EE5D /* PhotoCell.xib in Resources */,
+				DB60A5D31ECC44310089475E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60A5DF1ECC44310089475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D0D02910E75F28E1A2229C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0ED4876137139BACA3AD4912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45CB96C45C28554AE514E489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photowall/Pods-photowall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4957BB7B04A6FAC388B75A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB79F4D7FF18DBCE4E48ED8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photowall/Pods-photowall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29B8DBC73554BA3BF4F5AC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photowall-photowallTests/Pods-photowall-photowallTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB60A5C11ECC442F0089475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB71CE7F1ED277E50015EE5D /* PhotoCell.m in Sources */,
+				DB71CE081ED2770A0015EE5D /* _User.m in Sources */,
+				DB71CEC11ED2798B0015EE5D /* UIColor+Defaults.m in Sources */,
+				DB71CE8E1ED277E50015EE5D /* RootViewController.m in Sources */,
+				DB71CEBE1ED2798B0015EE5D /* NSDate+Utils.m in Sources */,
+				DB71CE9F1ED278010015EE5D /* Photo.m in Sources */,
+				3FC123CA1ECECD72004A71FF /* Mapping1-2.xcmappingmodel in Sources */,
+				DB71CEC31ED2798B0015EE5D /* UIView+Utils.m in Sources */,
+				DB71CE771ED277E50015EE5D /* FriendCell.m in Sources */,
+				DB71CEC41ED2798B0015EE5D /* UIViewController+Mask.m in Sources */,
+				DB71CEA11ED278010015EE5D /* PhotoMapRegion.m in Sources */,
+				DB71CE7E1ED277E50015EE5D /* PhotoAnnotation.m in Sources */,
+				DB71CE7C1ED277E50015EE5D /* LoginViewController.m in Sources */,
+				DB71CEBF1ED2798B0015EE5D /* NSString+Utils.m in Sources */,
+				DB71CE861ED277E50015EE5D /* PhotoMapViewController.m in Sources */,
+				DB71CE8C1ED277E50015EE5D /* ProfileViewController.m in Sources */,
+				DB60A5D61ECC44310089475E /* photowall.xcdatamodeld in Sources */,
+				DB71CE9E1ED278010015EE5D /* LocationAwarePhotoUploadTask.m in Sources */,
+				DB71CEAC1ED278970015EE5D /* AppDelegate.m in Sources */,
+				DB71CEA01ED278010015EE5D /* PhotoManager.m in Sources */,
+				DB71CE9D1ED278010015EE5D /* AccountManager.m in Sources */,
+				DB71CE751ED277E50015EE5D /* AnnotationCallOutView.m in Sources */,
+				DB71CE7A1ED277E50015EE5D /* FriendsViewController.m in Sources */,
+				DB60A5D01ECC44310089475E /* ViewController.m in Sources */,
+				DB71CE8A1ED277E50015EE5D /* PhotoShowcaseViewController.m in Sources */,
+				DB71CEC21ED2798B0015EE5D /* UIImageView+WebImage.m in Sources */,
+				DB71CEA31ED278010015EE5D /* UserManager.m in Sources */,
+				DB71CEC01ED2798B0015EE5D /* PhotoMapRegion+Utils.m in Sources */,
+				DB71CECE1ED27A2F0015EE5D /* RestClient.m in Sources */,
+				DB71CE811ED277E50015EE5D /* PhotoGridSectionHeader.m in Sources */,
+				DB71CEA21ED278010015EE5D /* User.m in Sources */,
+				DB71CECF1ED27A2F0015EE5D /* RestRequest.m in Sources */,
+				DB71CE871ED277E50015EE5D /* PhotoShowcaseCell.m in Sources */,
+				DB60A5CA1ECC44300089475E /* main.m in Sources */,
+				DB71CE841ED277E50015EE5D /* PhotoGridViewController.m in Sources */,
+				DB71CEC71ED279B00015EE5D /* KeyChainSecuredAuthenticator.m in Sources */,
+				DB71CED01ED27A2F0015EE5D /* RestResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB60A5DD1ECC44310089475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB60A5E61ECC44310089475E /* photowallTests.m in Sources */,
+				DB30B5471ED2BF14000AF505 /* NSStringUtilsTests.m in Sources */,
+				3FC123DA1ECEE23C004A71FF /* RestRequestTests.m in Sources */,
+				3FC123DC1ECEE517004A71FF /* RestClient.m in Sources */,
+				DB30B5431ED2BEF1000AF505 /* AccountManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB60A5E31ECC44310089475E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB60A5C41ECC442F0089475E /* photowall */;
+			targetProxy = DB60A5E21ECC44310089475E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB60A5D11ECC44310089475E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB60A5D21ECC44310089475E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB60A5D91ECC44310089475E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB60A5DA1ECC44310089475E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB60A5E81ECC44310089475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB60A5E91ECC44310089475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB60A5EB1ECC44310089475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1076186009BBB2B7D3FFF1CA /* Pods-photowall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = RK5L652G86;
+				INFOPLIST_FILE = photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roger.photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB60A5EC1ECC44310089475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C336E6ED9AE75FBEE922F95B /* Pods-photowall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = RK5L652G86;
+				INFOPLIST_FILE = photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roger.photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB60A5EE1ECC44310089475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A106622470A2A737446D2EE4 /* Pods-photowall-photowallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RK5L652G86;
+				INFOPLIST_FILE = photowallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roger.photowallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photowall.app/photowall";
+			};
+			name = Debug;
+		};
+		DB60A5EF1ECC44310089475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83D7D994D991964B7B96B07 /* Pods-photowall-photowallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RK5L652G86;
+				INFOPLIST_FILE = photowallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roger.photowallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photowall.app/photowall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB60A5C01ECC442F0089475E /* Build configuration list for PBXProject "photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60A5E81ECC44310089475E /* Debug */,
+				DB60A5E91ECC44310089475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB60A5EA1ECC44310089475E /* Build configuration list for PBXNativeTarget "photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60A5EB1ECC44310089475E /* Debug */,
+				DB60A5EC1ECC44310089475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB60A5ED1ECC44310089475E /* Build configuration list for PBXNativeTarget "photowallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB60A5EE1ECC44310089475E /* Debug */,
+				DB60A5EF1ECC44310089475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB60A5D41ECC44310089475E /* photowall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FC123C81ECECCDF004A71FF /* photowall 2.xcdatamodel */,
+				DB60A5D51ECC44310089475E /* photowall.xcdatamodel */,
+			);
+			currentVersion = DB60A5D51ECC44310089475E /* photowall.xcdatamodel */;
+			path = photowall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB60A5BD1ECC442F0089475E /* Project object */;
+}
